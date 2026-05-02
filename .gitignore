@@ -41,3 +41,19 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+# ==============================================================================
+# LTspice Simulation Files
+
+# Ignore massive waveform data files
+*.raw
+*.op.raw
+
+# Ignore simulation logs
+*.log
+
+# Ignore frequency domain analysis data
+*.fft
+*.bode
+
+# Ignore auto-generated SPICE netlists
+*.sp
